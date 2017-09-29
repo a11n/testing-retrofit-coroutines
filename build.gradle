@@ -35,4 +35,6 @@ dependencies {
     compile 'ru.gildor.coroutines:kotlin-coroutines-retrofit:0.7.1'
     testCompile("org.junit.jupiter:junit-jupiter-api:5.0.0")
     testRuntime("org.junit.jupiter:junit-jupiter-engine:5.0.0")
+    testCompile 'org.mockito:mockito-core:2.10.0'
+    testCompile 'org.amshove.kluent:kluent:1.30'
 }
